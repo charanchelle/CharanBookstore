@@ -1,1 +1,1 @@
-"Charan Bookstore”, an innovative online bookstore application designed with an intuitive user interface to optimize the browsing and purchasing experience.
+“Charan Bookstore” is an innovative online bookstore application featuring an intuitive user interface that enhances the browsing and purchasing experience. It incorporates key functionalities such as authentication, authorization, session management, resource optimization, and tracking of user history.
