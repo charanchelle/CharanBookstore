@@ -1,0 +1,77 @@
+###
+POST http://localhost:8080/CharanBookstoreOrder/api/orders
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+Origin: http://localhost:5173
+Referer: http://localhost:5173/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+sec-ch-ua: "Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1012,
+          "title": "Dragon Mage",
+          "author": "ML Spencer",
+          "description": "An Epic Fantasy Adventure",
+          "price": 875,
+          "rating": 4,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1003
+        },
+        "quantity": 1
+      },
+      {
+        "book": {
+          "bookId": 1016,
+          "title": "Atlas Shrugged",
+          "author": "Ayn Rand",
+          "description": "",
+          "price": 19,
+          "rating": 5,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1004
+        },
+        "quantity": 1
+      },
+      {
+        "book": {
+          "bookId": 1019,
+          "title": "Thus Spoke Zarathustra",
+          "author": "Nietzsche",
+          "description": "",
+          "price": 13,
+          "rating": 3,
+          "isPublic": false,
+          "isFeatured": false,
+          "categoryId": 1004
+        },
+        "quantity": 2
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "Charan Teja Chelle",
+    "address": " 854 University Terrace   ",
+    "phone": "(540) - 557-8934 ",
+    "email": "chellecharanteja@vt.edu",
+    "ccNumber": "5555444433331111",
+    "ccExpiryMonth": 8,
+    "ccExpiryYear": 2023
+  }
+}
+
+###
+

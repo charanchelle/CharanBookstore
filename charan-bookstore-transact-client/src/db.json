@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "categoryId": 1001,
+      "name": "Romance"
+    },
+    {
+      "categoryId": 1002,
+      "name": "Mystery"
+    },
+    {
+      "categoryId": 1003,
+      "name": "Fantasy"
+    },
+    {
+      "categoryId": 1004,
+      "name": "Philosophy"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "title": "Atlas Shrugged",
+      "author": "AynRand",
+      "price": 1899,
+      "isPublic": true,
+      "categoryId": 1004
+    },
+    {
+      "bookId": 1002,
+      "title": "Wisdom of Life",
+      "author": "Schopenhauer",
+      "price": 1529,
+      "isPublic": false,
+      "categoryId": 1004
+    },
+    {
+      "bookId": 1003,
+      "title": "Thus Spoke Zarathustra",
+      "author": "Nietzsche",
+      "price": 1299,
+      "isPublic": false,
+      "categoryId": 1004
+    },
+    {
+      "bookId": 1004,
+      "title": "Fountainhead",
+      "author": "Ayn Rand",
+      "price": 2058,
+      "isPublic": true,
+      "categoryId": 1004
+    }
+  ]
+}
